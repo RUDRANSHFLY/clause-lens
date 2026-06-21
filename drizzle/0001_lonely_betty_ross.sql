@@ -1,0 +1,1 @@
+ALTER TABLE "contract" ADD COLUMN "created_at" timestamp with time zone DEFAULT now();
